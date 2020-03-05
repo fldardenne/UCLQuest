@@ -21,7 +21,12 @@
 		float _spawnScale = 100f;
 
 		[SerializeField]
+		float _height = 10f;
+
+		[SerializeField]
 		GameObject _markerPrefab;
+
+		
 
 		List<GameObject> _spawnedObjects;
 
@@ -33,8 +38,12 @@
 			{
 				var locationString = _locationStrings[i];
 				_locations[i] = Conversions.StringToLatLon(locationString);
+				print(_locations[0][0]);
 				var instance = Instantiate(_markerPrefab);
 				instance.transform.localPosition = _map.GeoToWorldPosition(_locations[i], true);
+				print( instance.transform.localPosition.z + 10);
+				instance.transform.localPosition = new Vector3(instance.transform.localPosition.x, instance.transform.localPosition.y + _height, instance.transform.localPosition.z) ;
+
 				instance.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
 				_spawnedObjects.Add(instance);
 			}
@@ -48,6 +57,8 @@
 				var spawnedObject = _spawnedObjects[i];
 				var location = _locations[i];
 				spawnedObject.transform.localPosition = _map.GeoToWorldPosition(location, true);
+				spawnedObject.transform.localPosition = new Vector3(spawnedObject.transform.localPosition.x, spawnedObject.transform.localPosition.y + _height, spawnedObject.transform.localPosition.z) ;
+
 				spawnedObject.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
 			}
 		}
