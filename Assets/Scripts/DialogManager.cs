@@ -4,20 +4,42 @@ using UnityEngine;
 using UnityEngine.UI;
 public class DialogManager : MonoBehaviour
 {
-    GameObject[] dialogsObjects;
+	[SerializeField]
+    private GameObject dialogCanvas;
+
+	[SerializeField]
+	private RawImage character_object;
+
+	[SerializeField]
+	private Text dialogText;
+
+	private string[] dialogs;
+	private int currentDialog;
+
 	bool isActive;
 
 	// Use this for initialization
 	void Start () {
-		dialogsObjects = GameObject.FindGameObjectsWithTag("dialog");
 		hide();
 		this.isActive = false;
+
+		// Event listener
+		Button butt = dialogCanvas.GetComponent<Button>();
+        butt.onClick.AddListener(nextText);
+
+		setImage("DialogPNJ/professor");
+		
+		string[] init = new string[3]{ "Salut mec !", "Viens rejoins moi vite au BARB !", "Quoi comment ca pourquoi ? Viens vite !" };
+		setDialogs(init);
+
+        
+
 	}
 
 	// Update is called once per frame
 	void Update () {
 
-		//uses the p button to pause and unpause the game
+		//uses p to display the dialog in debug
 		if(Input.GetKeyDown(KeyCode.P))
 		{
 			if(isActive) hide();
@@ -25,21 +47,40 @@ public class DialogManager : MonoBehaviour
 		}
 	}
 
-	//shows objects with ShowOnPause tag
+	// Show the dialog
 	public void show(){
-		foreach(GameObject g in dialogsObjects){
-			g.SetActive(true);
-			this.isActive = true;
+		dialogCanvas.SetActive(true);
+		this.isActive = true;
+	}
+
+	//hide the dialog
+	public void hide(){
+		dialogCanvas.SetActive(false);
+		this.isActive = false;
+	}
+
+	// Set the dialog
+	public void setDialogs(string[] dialogs){
+		this.dialogs = dialogs;
+		this.currentDialog = 0;
+		dialogText.text = dialogs[currentDialog];
+
+	}
+
+	//Set the path, the image must be in Resources folder
+	public void setImage(string path){
+		Texture2D myTexture = Resources.Load(path) as Texture2D;
+		character_object.texture = myTexture;
+	}
+
+	private void nextText(){
+		if(dialogs.Length > currentDialog+1){
+			dialogText.text = dialogs[++currentDialog];
+		}else{
+			hide();
 		}
 	}
 
-	//hides objects with ShowOnPause tag
-	public void hide(){
-		foreach(GameObject g in dialogsObjects){
-			g.SetActive(false);
-			this.isActive = false;
-		}
-	}
 }
 
 
