@@ -30,3 +30,4 @@ ehthumbs.db
 Thumbs.db
 ProjectSettings/ProjectSettings.asset
 *.meta
+/Assets/AssetStoreTools*
