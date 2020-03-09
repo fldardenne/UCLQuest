@@ -1055,6 +1055,7 @@ namespace Mapbox.Unity.Map
 		/// <param name="queryHeight">If set to <c>true</c> will return the terrain height(in Unity units) at that point.</param>
 		public virtual Vector3 GeoToWorldPosition(Vector2d latitudeLongitude, bool queryHeight = true)
 		{
+			
 			Vector3 worldPos = GeoToWorldPositionXZ(latitudeLongitude);
 
 			if (queryHeight)

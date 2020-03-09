@@ -8,30 +8,69 @@ using Mapbox.Unity.Utilities;
 
 public class QuestFactory : MonoBehaviour
 {
+
+    [System.Serializable]
+    class Quest
+    {
+        public string title;
+		public string locationString;
+        public string[] dialogs;
+        public string path;
+        
+    }
+
+    
+    [SerializeField] private Quest[] quests;
+
+    
     [SerializeField] private GameObject POIQuest;
     [SerializeField] AbstractMap map;
     [SerializeField] float height;
 
-    private string[] availableQuestsCoordinates =  new string[] {
-        "50.669966,4.6161605"
-    };
+    private GameObject currentInstance;
+
 
     void Start ()
     {
-        SpawnQuestsFromCoordinates(0);
+        SpawnQuestsFromCoordinates(GameManager.Instance.CurrentPlayer.Quest-1);
     }
 
     private void SpawnQuestsFromCoordinates(int i)
     {
-        Vector2d[] locations = new Vector2d[availableQuestsCoordinates.Length];
+        Vector2d[] locations = new Vector2d[quests.Length];
 
-        locations[i] = Conversions.StringToLatLon(availableQuestsCoordinates[i]);
+        locations[i] = Conversions.StringToLatLon(quests[i].locationString);
 
-        var instance = Instantiate(POIQuest);
-        instance.transform.localPosition = map.GeoToWorldPosition(locations[i], true);
+        currentInstance = Instantiate(POIQuest);
+        currentInstance.transform.localPosition = map.GeoToWorldPosition(locations[i], true);
 
-        Debug.Log(map.GeoToWorldPosition(locations[i], true));
 
-        instance.transform.localPosition = new Vector3(instance.transform.localPosition.x, instance.transform.localPosition.y + height, instance.transform.localPosition.z);
+        currentInstance.transform.localPosition = new Vector3(currentInstance.transform.localPosition.x, currentInstance.transform.localPosition.y + height, currentInstance.transform.localPosition.z);
     }
+
+     private void Update()
+    {   
+        
+            Vector2d[] locations = new Vector2d[quests.Length];
+
+
+            if (GameManager.Instance.CurrentPlayer.Quest-1 < quests.Length){
+                locations[GameManager.Instance.CurrentPlayer.Quest-1] = Conversions.StringToLatLon(quests[GameManager.Instance.CurrentPlayer.Quest-1].locationString);
+                // If the objects is not destroyed
+                if(currentInstance != null){
+                    var location = locations[GameManager.Instance.CurrentPlayer.Quest-1];
+                    currentInstance.transform.localPosition = map.GeoToWorldPosition(location, true);
+                    currentInstance.transform.localPosition = new Vector3(currentInstance.transform.localPosition.x, currentInstance.transform.localPosition.y + height, currentInstance.transform.localPosition.z);
+                }else{ // If the previous object is destroyed, spawn the new one
+                    
+                    SpawnQuestsFromCoordinates(GameManager.Instance.CurrentPlayer.Quest-1);
+                }
+
+            }
+            
+
+            
+            
+    }
+    
 }

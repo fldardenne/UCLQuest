@@ -47,17 +47,5 @@ public class Test : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        int count = _spawnedObjects.Count;
-        for (int i = 0; i < count; i++)
-        {
-            var spawnedObject = _spawnedObjects[i];
-            var location = _locations[i];
-            spawnedObject.transform.localPosition = _map.GeoToWorldPosition(location, true);
-            spawnedObject.transform.localPosition = new Vector3(spawnedObject.transform.localPosition.x, spawnedObject.transform.localPosition.y + _height, spawnedObject.transform.localPosition.z);
 
-            spawnedObject.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
-        }
-    }
 }

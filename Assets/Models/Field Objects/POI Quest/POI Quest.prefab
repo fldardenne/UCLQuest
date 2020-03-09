@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 1906211595602785391}
   - component: {fileID: 1874595073830501739}
   - component: {fileID: 1885291925429882985}
-  - component: {fileID: 114344884725734190}
-  - component: {fileID: 114828052427132332}
   - component: {fileID: 65597224031800110}
+  - component: {fileID: 114054953009275812}
   m_Layer: 0
   m_Name: POI Quest
   m_TagString: Untagged
@@ -80,33 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &114344884725734190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907280799963642631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f1049dbc9408244cb2b02c5de121255, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotateSpeed: 15
-  floatAmplitude: 2
-  floatFrequency: 0.5
---- !u!114 &114828052427132332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907280799963642631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 140df6cd52625704fa7213dc6e816329, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &65597224031800110
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -120,3 +92,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.56618226, y: 0.45204288, z: 0.087741934}
   m_Center: {x: 0, y: 0.08617548, z: 0}
+--- !u!114 &114054953009275812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907280799963642631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 140df6cd52625704fa7213dc6e816329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
