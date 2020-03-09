@@ -19,7 +19,6 @@ public class QuestFactory : MonoBehaviour
         
     }
 
-    
     [SerializeField] private Quest[] quests;
 
     
@@ -29,6 +28,7 @@ public class QuestFactory : MonoBehaviour
 
     private GameObject currentInstance;
 
+    private bool finish = false;
 
     void Start ()
     {
@@ -37,15 +37,23 @@ public class QuestFactory : MonoBehaviour
 
     private void SpawnQuestsFromCoordinates(int i)
     {
-        Vector2d[] locations = new Vector2d[quests.Length];
 
-        locations[i] = Conversions.StringToLatLon(quests[i].locationString);
+        //Set the next POI
+        if(i+1 < quests.Length){
+            Vector2d locations = Conversions.StringToLatLon(quests[i+1].locationString);
+            currentInstance = Instantiate(POIQuest);
+            currentInstance.transform.localPosition = map.GeoToWorldPosition(locations, true);
+            currentInstance.transform.localPosition = new Vector3(currentInstance.transform.localPosition.x, currentInstance.transform.localPosition.y + height, currentInstance.transform.localPosition.z); 
+        }
 
-        currentInstance = Instantiate(POIQuest);
-        currentInstance.transform.localPosition = map.GeoToWorldPosition(locations[i], true);
+        // Set up the dialog and show it
+        DialogManager dialogManager = GameManager.Instance.cameraWithDialogManager.GetComponent<DialogManager>();
+        dialogManager.setDialogs(quests[i].dialogs);
+        
+        dialogManager.show();
+        dialogManager.setImage(quests[i].path);
 
-
-        currentInstance.transform.localPosition = new Vector3(currentInstance.transform.localPosition.x, currentInstance.transform.localPosition.y + height, currentInstance.transform.localPosition.z);
+        
     }
 
      private void Update()
@@ -53,24 +61,20 @@ public class QuestFactory : MonoBehaviour
         
             Vector2d[] locations = new Vector2d[quests.Length];
 
+            if (!finish){
 
-            if (GameManager.Instance.CurrentPlayer.Quest-1 < quests.Length){
-                locations[GameManager.Instance.CurrentPlayer.Quest-1] = Conversions.StringToLatLon(quests[GameManager.Instance.CurrentPlayer.Quest-1].locationString);
-                // If the objects is not destroyed
-                if(currentInstance != null){
+                if(GameManager.Instance.CurrentPlayer.Quest < quests.Length){ // Update the position
+                    locations[GameManager.Instance.CurrentPlayer.Quest-1] = Conversions.StringToLatLon(quests[GameManager.Instance.CurrentPlayer.Quest].locationString);
+                }
+                if(currentInstance != null){ // If the objects is not destroyed
                     var location = locations[GameManager.Instance.CurrentPlayer.Quest-1];
                     currentInstance.transform.localPosition = map.GeoToWorldPosition(location, true);
                     currentInstance.transform.localPosition = new Vector3(currentInstance.transform.localPosition.x, currentInstance.transform.localPosition.y + height, currentInstance.transform.localPosition.z);
-                }else{ // If the previous object is destroyed, spawn the new one
-                    
+                }else{ // If the previous quest is destroyed, spawn the new one
                     SpawnQuestsFromCoordinates(GameManager.Instance.CurrentPlayer.Quest-1);
+                    if(GameManager.Instance.CurrentPlayer.Quest == quests.Length) finish = true; // For the last dialog
                 }
-
-            }
-            
-
-            
-            
+            }   
     }
     
 }
