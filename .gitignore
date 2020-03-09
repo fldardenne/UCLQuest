@@ -1,3 +1,9 @@
+
+# Unity Generated
+[Tt]emp/
+[Ll]ibrary/
+[Oo]bj/
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
@@ -61,6 +67,7 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+>>>>>>> 20ac6e3e46bb03e1b9383e8ec19795ce9a32509c
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -87,3 +94,6 @@ desktop.ini
 .Trashes
 ehthumbs.db
 Thumbs.db
+ProjectSettings/ProjectSettings.asset
+*.meta
+/Assets/AssetStoreTools*
