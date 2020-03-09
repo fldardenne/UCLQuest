@@ -269,7 +269,7 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[6].dialogs.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -422,7 +422,7 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[6].dialogs.Array.data[0]
-      value: "Ouf on l'a \xE9chapp\xE9 belle !\x13"
+      value: Le protocole en main vous le lisez.
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -651,6 +651,18 @@ PrefabInstance:
         type: 3}
       propertyPath: quests.Array.data[5].dialogs.Array.data[4]
       value: "Allez chercher le protocole d\u2019urgence au b\xE2timent Agora"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[6].dialogs.Array.data[1]
+      value: " Celui-ci vous donne une liste de trois \xE9l\xE9ments : un \xE9chantillon,
+        un programme et un dispositif de diffusion, que vous devez amener \xE0 un
+        ing\xE9nieur au b\xE2timent Pierre Curie pour produire un antidote. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[6].dialogs.Array.data[2]
+      value: "Ouf on l'a \xE9chapp\xE9 belle !\x13"
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124631, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
