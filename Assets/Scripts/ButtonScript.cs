@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class ButtonScript : MonoBehaviour
 {
-    [SerializeField]
-    private Text myText;
+    
+    //private GameObject mybutton;
 
-    public void SetText(string textString)
+    public static void Show(GameObject button)
     {
-        myText.text = textString;
+        button.SetActive (true);
     }
 }
