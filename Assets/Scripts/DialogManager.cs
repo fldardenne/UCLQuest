@@ -20,20 +20,11 @@ public class DialogManager : MonoBehaviour
 
 	// Use this for initialization
 	void Start () {
-		hide();
-		this.isActive = false;
+		this.isActive = true;
 
 		// Event listener
 		Button butt = dialogCanvas.GetComponent<Button>();
         butt.onClick.AddListener(nextText);
-
-		setImage("DialogPNJ/professor");
-		
-		string[] init = new string[3]{ "Salut mec !", "Viens rejoins moi vite au BARB !", "Quoi comment ca pourquoi ? Viens vite !" };
-		setDialogs(init);
-
-        
-
 	}
 
 	// Update is called once per frame
