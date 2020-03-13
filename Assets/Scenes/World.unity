@@ -249,12 +249,12 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.size
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[3].dialogs.Array.size
-      value: 7
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -269,7 +269,7 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[6].dialogs.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -279,12 +279,12 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[8].dialogs.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[9].dialogs.Array.size
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -299,12 +299,22 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[2].dialogs.Array.size
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: buttons.Array.size
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[0].dialogs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[12].dialogs.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -324,7 +334,7 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[1].path
-      value: DialogPNJ/professor
+      value: DialogPNJ/Professor_Magnolia
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -334,8 +344,8 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[1].dialogs.Array.data[1]
-      value: "Malheureusement, vous avez rat\xE9 votre train et \xEAtes arriv\xE9s
-        en retard aux activit\xE9s de bienvenue."
+      value: "Elle vous dit n\xE9anmoins d\u2019aller voir au b\xE2timent Barb car
+        peut-\xEAtre il y a encore quelques personnes. "
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -365,8 +375,8 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[3].dialogs.Array.data[0]
-      value: "Une fois au b\xE2timent Barb, vous remarquez qu\u2019il n\u2019y a plus
-        personne."
+      value: "Arriv\xE9s au bureau de l\u2019assistant vous essayez d\u2019ouvrir
+        la porte mais celle-ci est ferm\xE9e \xE0 cl\xE9."
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -467,7 +477,7 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[8].dialogs.Array.data[0]
-      value: "Ouf on l'a \xE9chapp\xE9 belle !\x13"
+      value: "Vous arrivez trop tard au b\xE2timent Candix, il est d\xE9j\xE0 ferm\xE9. "
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -487,7 +497,8 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[9].dialogs.Array.data[0]
-      value: "Ouf on l'a \xE9chapp\xE9 belle !\x13"
+      value: "Vous avez enfin collect\xE9 les trois \xE9l\xE9ments et vous vous dirigez
+        vers le b\xE2timent Pierre Curie. "
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -502,7 +513,7 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[10].locationString
-      value: 50.669479, 4.619302
+      value: 50.6683878,4.617482
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -522,12 +533,12 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[11].locationString
-      value: 50.668228, 4.621234
+      value: 50.669479, 4.619302
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[11].dialogs.Array.data[0]
-      value: "Ouf on l'a \xE9chapp\xE9 belle !\x13"
+      value: "Ouf on l'a \xE9chapp\xE9 belle !"
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -542,7 +553,7 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[0].dialogs.Array.data[1]
-      value: "Rejoins moi vite au secr\xE9tariat EPL !"
+      value: "C\u2019est votre premier jour de cours \xE0 l\u2019UCL."
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -552,64 +563,63 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[1].dialogs.Array.data[2]
-      value: "Votre premier objectif est de vous rendre au secr\xE9tariat de l\u2019EPL
-        pour demander o\xF9 se d\xE9roule les activit\xE9s. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
-        type: 3}
-      propertyPath: quests.Array.data[1].dialogs.Array.data[0]
-      value: "C\u2019est votre premier jour de cours \xE0 l\u2019UCL."
-      objectReference: {fileID: 0}
-    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
-        type: 3}
-      propertyPath: quests.Array.data[2].dialogs.Array.data[1]
-      value: " Vous y trouvez une secr\xE9taire qui vous informe que les activit\xE9s
-        sont malheureusement pour la plupart termin\xE9."
-      objectReference: {fileID: 0}
-    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
-        type: 3}
-      propertyPath: quests.Array.data[2].dialogs.Array.data[2]
-      value: "Elle vous dit n\xE9anmoins d\u2019aller voir au b\xE2timent Barb car
-        peut-\xEAtre il y a encore quelques personnes. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
-        type: 3}
-      propertyPath: quests.Array.data[2].dialogs.Array.data[0]
-      value: "Vous voil\xE0 au secr\xE9tariat de l\u2019EPL."
-      objectReference: {fileID: 0}
-    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
-        type: 3}
-      propertyPath: quests.Array.data[2].dialogs.Array.data[3]
       value: "Rendez-vous au b\xE2timent Barb "
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
-      propertyPath: quests.Array.data[3].dialogs.Array.data[1]
+      propertyPath: quests.Array.data[1].dialogs.Array.data[0]
+      value: "Vous voil\xE0 au secr\xE9tariat de l\u2019EPL."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[2].dialogs.Array.data[1]
       value: "Vous vous appr\xEAtez \xE0 sortir pour rentrer lorsqu\u2019un \xE9norme
         bruit venant d\u2019un local vous fait sursauter."
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
-      propertyPath: quests.Array.data[3].dialogs.Array.data[2]
+      propertyPath: quests.Array.data[2].dialogs.Array.data[2]
       value: "Un professeur en sort en courant et bloque rapidement la porte derri\xE8re
         lui. "
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
-      propertyPath: quests.Array.data[3].dialogs.Array.data[3]
+      propertyPath: quests.Array.data[2].dialogs.Array.data[0]
+      value: "Une fois au b\xE2timent Barb, vous remarquez qu\u2019il n\u2019y a plus
+        personne."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[2].dialogs.Array.data[3]
       value: " Une l\xE9g\xE8re fum\xE9e s\u2019\xE9chappe du bas de la porte et tr\xE8s
         vite des coups venant de l\u2019int\xE9rieur la font trembler."
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
+      propertyPath: quests.Array.data[3].dialogs.Array.data[1]
+      value: "Vous toquez brutalement mais personne ne r\xE9pond. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[3].dialogs.Array.data[2]
+      value: "Un autre assistant, alert\xE9 par le bruit, sort du bureau \xE0 cot\xE9
+        et vous signale que l'assistant du professeur est parti faire des recherches
+        en salle Intel. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[3].dialogs.Array.data[3]
+      value: "Trouvez l\u2019assistant du professeur au b\xE2timent Sud "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
       propertyPath: quests.Array.data[3].dialogs.Array.data[4]
-      value: "Le professeur paniqu\xE9 et ne voyant que vous, vous crie \u201CVite,
-        allez pr\xE9venir mon assistant ! L'heure est grave !\""
+      value: "Trouvez l\u2019assistant du professeur au b\xE2timent Sud "
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[3].dialogs.Array.data[5]
-      value: "Vous partez en vitesse vers le Sud \xE0 la recherche de l\u2019assistant. "
+      value: "Trouvez l\u2019assistant du professeur au b\xE2timent Sud "
       objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
@@ -660,7 +670,7 @@ PrefabInstance:
     - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: quests.Array.data[6].dialogs.Array.data[1]
-      value: " Celui-ci vous donne une liste de trois \xE9l\xE9ments : un \xE9chantillon,
+      value: "Celui-ci vous donne une liste de trois \xE9l\xE9ments : un \xE9chantillon,
         un programme et un dispositif de diffusion, que vous devez amener \xE0 un
         ing\xE9nieur au b\xE2timent Pierre Curie pour produire un antidote. "
       objectReference: {fileID: 0}
@@ -729,6 +739,166 @@ PrefabInstance:
       propertyPath: buttons.Array.data[11]
       value: 
       objectReference: {fileID: 717088228}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[0].dialogs.Array.data[2]
+      value: "Malheureusement, vous avez rat\xE9 votre train et \xEAtes arriv\xE9s
+        en retard aux activit\xE9s de bienvenue."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[0].dialogs.Array.data[3]
+      value: "Votre premier objectif est de vous rendre au secr\xE9tariat de l\u2019EPL
+        pour demander o\xF9 se d\xE9roule les activit\xE9s. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[2].dialogs.Array.data[4]
+      value: "Le professeur paniqu\xE9 et ne voyant que vous, vous crie \u201CVite,
+        allez pr\xE9venir mon assistant ! L'heure est grave !\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[2].dialogs.Array.data[5]
+      value: "Vous partez en vitesse vers le Sud \xE0 la recherche de l\u2019assistant. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[2].dialogs.Array.data[6]
+      value: "Trouvez l\u2019assistant du professeur au b\xE2timent Sud "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[11].dialogs.Array.data[1]
+      value: "L\u2019assistant dit au professeur de l\xE2cher la porte."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[11].dialogs.Array.data[2]
+      value: "Les deux stagiaires s\u2019en \xE9chappent en courant, l\u2019assistant
+        vous crie de l\u2019aider \xE0 les retenir dans le nuage de gaz afin que celui-ci
+        fasse effet."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[11].dialogs.Array.data[3]
+      value: "Apr\xE8s quelques secondes dans le nuage, les stagiaires semblent se
+        calmer. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[11].dialogs.Array.data[4]
+      value: "Tr\xE8s peu de temps apr\xE8s, ceux-ci semblent \xEAtre revenus \xE0
+        leur \xE9tat normal sans aucun souvenir de ce qu\u2019il s\u2019est pass\xE9. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[10].dialogs.Array.data[1]
+      value: "Vous trouvez l'ing\xE9nieur et celui-ci commence imm\xE9diatement la
+        production de l\u2019antidote."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[10].dialogs.Array.data[2]
+      value: "Une fois termin\xE9, l\u2019ing\xE9nieur vous donne un petit dispositif
+        avec l\u2019antidote."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[10].dialogs.Array.data[3]
+      value: "Il vous explique bri\xE8vement que celui-ci lib\xE9rera l\u2019antidote
+        sous forme de gaz une fois activ\xE9. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[10].dialogs.Array.data[4]
+      value: "Retourner au b\xE2timent Barb avec le dispositif \xE0 antidote"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[8].dialogs.Array.data[1]
+      value: "Impossible d\u2019y p\xE9n\xE9trer. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[8].dialogs.Array.data[2]
+      value: "Heureusement, les ordinateurs de la biblioth\xE8que des sciences permettent
+        de se connecter au r\xE9seau de la salle Candix "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[8].dialogs.Array.data[3]
+      value: "Trouvez un ordinateur \xE0 la biblioth\xE8que des sciences et procurez-vous
+        le programme informatique de production "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[9].dialogs.Array.data[1]
+      value: "Vous trouvez l'ing\xE9nieur et celui-ci commence imm\xE9diatement la
+        production de l\u2019antidote."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[9].dialogs.Array.data[2]
+      value: "Une fois termin\xE9, l\u2019ing\xE9nieur vous donne un petit dispositif
+        avec l\u2019antidote."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[9].dialogs.Array.data[3]
+      value: "Il vous explique bri\xE8vement que celui-ci lib\xE9rera l\u2019antidote
+        sous forme de gaz une fois activ\xE9. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[12].title
+      value: Quete 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[12].locationString
+      value: 50.668228, 4.621234
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[12].dialogs.Array.data[0]
+      value: "Vous vous empressez de donner le dispositif \xE0 l\u2019assistant. Il
+        l\u2019active et celui-ci commence \xE0 l\xE2cher un nuage de gaz vert"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[12].dialogs.Array.data[1]
+      value: "L\u2019assistant dit au professeur de l\xE2cher la porte."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[12].dialogs.Array.data[2]
+      value: "Les deux stagiaires s\u2019en \xE9chappent en courant, l\u2019assistant
+        vous crie de l\u2019aider \xE0 les retenir dans le nuage de gaz afin que celui-ci
+        fasse effet."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[12].dialogs.Array.data[3]
+      value: "Apr\xE8s quelques secondes dans le nuage, les stagiaires semblent se
+        calmer. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[12].dialogs.Array.data[4]
+      value: "Tr\xE8s peu de temps apr\xE8s, ceux-ci semblent \xEAtre revenus \xE0
+        leur \xE9tat normal sans aucun souvenir de ce qu\u2019il s\u2019est pass\xE9. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[12].path
+      value: DialogPNJ/professor
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403884661844124630, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
+        type: 3}
+      propertyPath: quests.Array.data[9].dialogs.Array.data[4]
+      value: "Retourner au b\xE2timent Barb avec le dispositif \xE0 antidote "
+      objectReference: {fileID: 0}
     - target: {fileID: 2403884661844124631, guid: 1900cdd76feba4a81a0f6047c4bf8bf0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1048,7 +1218,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -125}
+  m_AnchoredPosition: {x: 181.76001, y: -135}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &351471969
@@ -1326,7 +1496,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 182.01549, y: -25}
+  m_AnchoredPosition: {x: 181.76001, y: -25}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476064610
@@ -1437,6 +1607,7 @@ GameObject:
   - component: {fileID: 481121521}
   - component: {fileID: 481121520}
   - component: {fileID: 481121523}
+  - component: {fileID: 481121524}
   m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
@@ -1461,7 +1632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 182.01549, y: -15}
+  m_AnchoredPosition: {x: 181.76001, y: -15}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &481121520
@@ -1562,6 +1733,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88c3fa53a4d44974ea7c42fc23ab33c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &481121524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481121518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: 30
+  m_FlexibleWidth: 1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
 --- !u!1 &537573777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,7 +1790,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -110.25}
+  m_AnchoredPosition: {x: 181.76001, y: -465}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &537573779
@@ -1832,7 +2023,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.9836364}
-  m_AnchoredPosition: {x: -0.5, y: 4.5000305}
+  m_AnchoredPosition: {x: -0.5, y: 4.5}
   m_SizeDelta: {x: 31, y: 9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &693410774
@@ -1853,7 +2044,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 1
-  m_Spacing: 0
+  m_Spacing: 5
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
@@ -2152,7 +2343,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -524.99994}
+  m_AnchoredPosition: {x: 181.76001, y: -630}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &717088230
@@ -3352,7 +3543,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -41.125}
+  m_AnchoredPosition: {x: 181.76001, y: -245}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &916044483
@@ -3663,7 +3854,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -156.33333}
+  m_AnchoredPosition: {x: 181.76001, y: -520}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1031467375
@@ -3798,7 +3989,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -64.16667}
+  m_AnchoredPosition: {x: 181.76001, y: -355}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1087966215
@@ -4293,7 +4484,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -82.6}
+  m_AnchoredPosition: {x: 181.76001, y: -410}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1265832319
@@ -4428,7 +4619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -75}
+  m_AnchoredPosition: {x: 181.76001, y: -80}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1347447612
@@ -5153,7 +5344,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -33.444443}
+  m_AnchoredPosition: {x: 181.76001, y: -190}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1870005674
@@ -5300,7 +5491,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -248.5}
+  m_AnchoredPosition: {x: 181.76001, y: -575}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1958593939
@@ -5435,7 +5626,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150, y: -125}
+  m_AnchoredPosition: {x: 181.76001, y: -300}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1990556811
