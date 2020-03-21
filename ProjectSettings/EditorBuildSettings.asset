@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/World.unity
     guid: da8acc4487d35654ea5402303c7c7fca
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/QuestListScreen.unity
     guid: d41707ce50fcd7042ae8254e5c66ed9d
   m_configObjects: {}
