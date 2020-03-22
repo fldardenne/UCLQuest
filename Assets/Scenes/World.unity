@@ -2491,7 +2491,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rends-toi au Cyclotron
+  m_Text: 7. Rends-toi au Cyclotron
 --- !u!222 &704842742
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2703,7 +2703,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rends-toi au BARB
+  m_Text: 2. Rends-toi au BARB
 --- !u!222 &790086219
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2898,7 +2898,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rends-toi au BARB
+  m_Text: 5. Rends-toi au BARB
 --- !u!222 &842730786
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3990,7 +3990,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Rends-toi au secr\xE9tariat EPL"
+  m_Text: "1. Rends-toi au secr\xE9tariat EPL"
 --- !u!222 &988469806
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4769,7 +4769,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rends-toi au SUD
+  m_Text: 3. Rends-toi au SUD
 --- !u!222 &1214539236
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5116,7 +5116,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rends-toi en salle INTEL
+  m_Text: 4. Rends-toi en salle INTEL
 --- !u!222 &1360185170
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5323,7 +5323,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rends-toi au Pierre Curie
+  m_Text: 11. Rends-toi au Pierre Curie
 --- !u!222 &1464203054
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5610,7 +5610,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rends-toi aux Sciences
+  m_Text: 10. Rends-toi aux Sciences
 --- !u!222 &1686416940
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5687,7 +5687,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rends-toi au BARB
+  m_Text: 12. Rends-toi au BARB
 --- !u!222 &1706348172
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6258,7 +6258,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fini au BARB
+  m_Text: 13. Fini au BARB
 --- !u!222 &2030657672
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6410,7 +6410,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Rends-toi \xE0 la salle CANDIX"
+  m_Text: "8. Rends-toi \xE0 la salle CANDIX"
 --- !u!222 &2052378267
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6487,7 +6487,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Rends-toi \xE0 la BST"
+  m_Text: "9. Rends-toi \xE0 la BST"
 --- !u!222 &2064323430
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6564,7 +6564,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Rends-toi \xE0 l'Agora"
+  m_Text: "6. Rends-toi \xE0 l'Agora"
 --- !u!222 &2098891588
 CanvasRenderer:
   m_ObjectHideFlags: 0
