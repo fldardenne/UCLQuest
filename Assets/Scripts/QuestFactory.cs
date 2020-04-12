@@ -25,7 +25,8 @@ public class QuestFactory : MonoBehaviour
     [SerializeField] private GameObject POIQuest;
     [SerializeField] AbstractMap map;
     [SerializeField] float height;
-
+    [SerializeField] private GameObject mastermind;
+    [SerializeField] private GameObject hiddenobject;
     [SerializeField] private GameObject[] buttons;
 
     private GameObject currentInstance;
@@ -41,8 +42,15 @@ public class QuestFactory : MonoBehaviour
     {
         //Show the quest on the list of quest 
         ButtonScript.Show(buttons[i]);
+        if (i == 9) { //si on arrive à la quete du pc on lance le jeu correspondant (mastermind) à mettre à 9 normalement !!!
+            mastermind.SetActive(true);
+            
+        }
+        if (i == 1) {//si on arrive à la quete du pc on lance le jeu correspondant (hiddenobject) à mettre à 7 normalement !!!
+            hiddenobject.SetActive(true);
+        }
         //Set the next POI
-        if(i+1 < quests.Length){
+        if (i+1 < quests.Length){
             Vector2d locations = Conversions.StringToLatLon(quests[i+1].locationString);
             currentInstance = Instantiate(POIQuest);
             currentInstance.transform.localPosition = map.GeoToWorldPosition(locations, true);
