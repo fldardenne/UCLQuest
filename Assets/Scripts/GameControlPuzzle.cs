@@ -36,7 +36,11 @@ public class GameControlPuzzle : MonoBehaviour
            image[12].rotation.z == 0 &&
            image[13].rotation.z == 0 &&
            image[14].rotation.z == 0 &&
-           image[15].rotation.z == 0)
+           image[15].rotation.z == 0 &&
+           image[16].rotation.z == 0 &&
+           image[17].rotation.z == 0 &&
+           image[18].rotation.z == 0 &&
+           image[19].rotation.z == 0)
            {
                win = true;
                ButtonPuzzle.SetActive(true);

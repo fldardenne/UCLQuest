@@ -44,6 +44,9 @@ public class QuestFactory : MonoBehaviour
     {
         //Show the quest on the list of quest 
         ButtonScript.Show(buttons[i]);
+        if(i == 0) {
+            PuzzleCanvas.SetActive(true);
+        }
         if (i == 9) { //si on arrive à la quete du pc on lance le jeu correspondant (mastermind) à mettre à 9 normalement !!!
             mastermind.SetActive(true);
             
