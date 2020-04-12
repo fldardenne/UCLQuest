@@ -29,6 +29,8 @@ public class QuestFactory : MonoBehaviour
     [SerializeField] private GameObject hiddenobject;
     [SerializeField] private GameObject[] buttons;
 
+    [SerializeField] private GameObject PuzzleCanvas;
+
     private GameObject currentInstance;
 
     private bool finish = false;
@@ -42,6 +44,7 @@ public class QuestFactory : MonoBehaviour
     {
         //Show the quest on the list of quest 
         ButtonScript.Show(buttons[i]);
+<<<<<<< HEAD
         if (i == 9) { //si on arrive à la quete du pc on lance le jeu correspondant (mastermind) à mettre à 9 normalement !!!
             mastermind.SetActive(true);
             
@@ -49,6 +52,9 @@ public class QuestFactory : MonoBehaviour
         if (i == 1) {//si on arrive à la quete du pc on lance le jeu correspondant (hiddenobject) à mettre à 7 normalement !!!
             hiddenobject.SetActive(true);
         }
+=======
+        
+>>>>>>> 46ad0ddc5694e62023c99ce467e28c155a52142d
         //Set the next POI
         if (i+1 < quests.Length){
             Vector2d locations = Conversions.StringToLatLon(quests[i+1].locationString);
