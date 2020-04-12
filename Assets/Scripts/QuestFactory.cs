@@ -28,6 +28,8 @@ public class QuestFactory : MonoBehaviour
 
     [SerializeField] private GameObject[] buttons;
 
+    [SerializeField] private GameObject PuzzleCanvas;
+
     private GameObject currentInstance;
 
     private bool finish = false;
@@ -41,6 +43,7 @@ public class QuestFactory : MonoBehaviour
     {
         //Show the quest on the list of quest 
         ButtonScript.Show(buttons[i]);
+        
         //Set the next POI
         if(i+1 < quests.Length){
             Vector2d locations = Conversions.StringToLatLon(quests[i+1].locationString);
