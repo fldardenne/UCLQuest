@@ -44,14 +44,14 @@ public class QuestFactory : MonoBehaviour
     {
         //Show the quest on the list of quest 
         ButtonScript.Show(buttons[i]);
-        if(i == 0) {
+        if(i == 6) { //6
             PuzzleCanvas.SetActive(true);
         }
-        if (i == 9) { //si on arrive à la quete du pc on lance le jeu correspondant (mastermind) à mettre à 9 normalement !!!
+        if (i == 9) { //si on arrive à la quete du pc on lance le jeu correspondant (mastermind) à mettre à 11 normalement !!!
             mastermind.SetActive(true);
             
         }
-        if (i == 1) {//si on arrive à la quete du pc on lance le jeu correspondant (hiddenobject) à mettre à 7 normalement !!!
+        if (i == 7) {//si on arrive à la quete du pc on lance le jeu correspondant (hiddenobject) à mettre à 8 normalement !!!
             hiddenobject.SetActive(true);
         }
 
