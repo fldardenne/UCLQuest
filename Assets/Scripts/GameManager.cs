@@ -8,7 +8,6 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] private Player currentPlayer;
     [SerializeField] public Camera cameraWithDialogManager;
 
-
     public Player CurrentPlayer
     {
         get { return currentPlayer; }
