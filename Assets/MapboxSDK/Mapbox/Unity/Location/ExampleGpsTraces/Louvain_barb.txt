@@ -1,0 +1,3 @@
+#location service enabled;location service intializing;location updated;userheading updated;location provider;location provider class;time device [utc];time location [utc];latitude;longitude;accuracy [m];user heading [�];device orientation [�];speed [km/h];has gps fix;satellites used;satellites in view
+True;False;False;True;unity;DeviceLocationProvider;20180524-163505.787;20180524-163427.922;50.668222;4.61974;116.0;305.1;305.1;[not supported by provider];[not supported by provider];[not supported by provider];[not supported by provider]
+

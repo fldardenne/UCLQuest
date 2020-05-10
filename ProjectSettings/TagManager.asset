@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - dialog
+  - Puzzle
   layers:
   - Default
   - TransparentFX
